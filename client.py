@@ -9,3 +9,5 @@ message = b'Hi UDP'
 client.sendto(message, ('127.0.0.1', 3000))
 
 data, addr = client.recvfrom(UDP_MAX_SIZE)
+
+client.close()
