@@ -1,4 +1,4 @@
-# message = bytes('Test', 'utf-8')
+message = bytes('Test', 'utf-8')
 
 message = b'test'
 
